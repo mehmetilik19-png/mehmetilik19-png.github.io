@@ -1,74 +1,67 @@
-
 <!DOCTYPE html>
 <html lang="tr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>İhtiyacım</title>
-
 <style>
-body{
-font-family:Arial,sans-serif;
-background:#f5f7ff;
-margin:0;
-padding:30px;
-text-align:center;
-}
-
-.container{
-max-width:700px;
-margin:auto;
-background:white;
-padding:30px;
-border-radius:15px;
-box-shadow:0 5px 20px rgba(0,0,0,.15);
-}
-
-h1{
-color:#1565ff;
-}
-
-a{
-display:block;
-margin:15px;
-font-size:18px;
-text-decoration:none;
-color:#1565ff;
-font-weight:bold;
-}
-
-.footer{
-margin-top:40px;
-font-size:14px;
-color:#666;
-}
+body{margin:0;font-family:Arial,sans-serif;background:#f4f7ff;color:#222}
+header{background:linear-gradient(135deg,#1565ff,#6b45ff);color:white;padding:50px 20px;text-align:center}
+header h1{font-size:42px;margin:0}
+header p{font-size:18px;margin-top:12px}
+.container{max-width:1000px;margin:auto;padding:30px 20px}
+.card{background:white;border-radius:18px;padding:25px;margin:20px 0;box-shadow:0 8px 25px rgba(0,0,0,.10)}
+.links a{display:block;background:#1565ff;color:white;text-decoration:none;padding:15px;margin:12px 0;border-radius:12px;font-weight:bold}
+.badges{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:20px}
+.badge{background:#eef2ff;padding:12px 18px;border-radius:999px;font-weight:bold}
+footer{text-align:center;padding:25px;color:#666}
 </style>
-
 </head>
-
 <body>
+
+<header>
+<h1>İhtiyacım</h1>
+<p>Yardımlaşma, dayanışma ve güvenli alışveriş platformu</p>
+</header>
 
 <div class="container">
 
-<h1>İhtiyacım</h1>
+<div class="card">
+<h2>İhtiyacım Nedir?</h2>
+<p>
+İhtiyacım, kullanıcıların ihtiyaçlarını paylaşabildiği, destek alıp destek verebildiği sosyal fayda odaklı bir mobil uygulamadır.
+</p>
+</div>
 
-<p>Toplum yararına geliştirilmiş yardım ve dayanışma platformudur.</p>
+<div class="card">
+<h2>Güvenli Ödeme</h2>
+<p>Ödeme işlemleri güvenli ödeme altyapısı üzerinden gerçekleştirilir.</p>
+<div class="badges">
+<div class="badge">Visa</div>
+<div class="badge">Mastercard</div>
+<div class="badge">iyzico ile Güvenli Ödeme</div>
+</div>
+</div>
 
-<a href="about.html">📌 Hakkımızda</a>
+<div class="card links">
+<h2>Yasal Bilgilendirme</h2>
+<a href="about.html">Hakkımızda</a>
+<a href="privacy.html">Gizlilik Politikası</a>
+<a href="delivery-return.html">Teslimat ve İade Şartları</a>
+<a href="distance-sales.html">Mesafeli Satış Sözleşmesi</a>
+</div>
 
-<a href="privacy.html">🔒 Gizlilik Politikası</a>
-
-<a href="delivery-return.html">📦 Teslimat ve İade Şartları</a>
-
-<a href="distance-sales.html">📝 Mesafeli Satış Sözleşmesi</a>
-
-<p><b>E-posta:</b><br>mehmetilik19@gmail.com</p>
-
-<div class="footer">
-© 2026 İhtiyacım
+<div class="card">
+<h2>İletişim</h2>
+<p><b>E-posta:</b> mehmetilik19@gmail.com</p>
+<p><b>Uygulama:</b> İhtiyacım</p>
 </div>
 
 </div>
+
+<footer>
+© 2026 İhtiyacım. Tüm hakları saklıdır.
+</footer>
 
 </body>
 </html>
